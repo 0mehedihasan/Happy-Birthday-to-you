@@ -106,12 +106,12 @@ $('document').ready(function(){
 		//ballon vanish
 		$('.balloon-border').animate({top:-500},8000);
 		$('.balloon-border1').animate({top:-500},8000);
-$('.balloon-border2').animate({top:-500},8000);
-$('.balloon-border3').animate({top:-500},8000);
-$('.balloon-border4').animate({top:-500},8000);
-$('.balloon-border5').animate({top:-500},8000);
-$('.balloon-border6').animate({top:-500},8000);
-$('.balloon-border7').animate({top:-500},8000);
+$('.balloon-border2').animate({top:-2000},12000);
+$('.balloon-border3').animate({top:-2000},12000);
+$('.balloon-border4').animate({top:-2500},12000);
+$('.balloon-border5').animate({top:-2000},12000);
+$('.balloon-border6').animate({top:-2000},12000);
+$('.balloon-border7').animate({top:-2000},12000);
 		$('#b1,#b4,#b5,#b7').addClass('balloons-rotate-behaviour-one');
 		$('#b2,#b3,#b6').addClass('balloons-rotate-behaviour-two');
 		// $('#b3').addClass('balloons-rotate-behaviour-two');
