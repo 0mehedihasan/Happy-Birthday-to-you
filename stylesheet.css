@@ -1319,7 +1319,50 @@ audio {
  /* Keyframe values control where the element will begin
     and end its trajectory across the screen. Each rule
     represents a path the element follows across the screen. */
+/*starting new fly*/
+.flier1 {
+	pointer-events: none;
+}
 
+.flier1 > * {
+     animation: fly 60s linear infinite;
+        pointer-events: none !important;
+	top: 0;
+	left: 0;
+	transform: translateX(-100%) translateY(-100%) rotateZ(0);
+	position: fixed;
+	animation-delay: 1s;
+	z-index: 999999;
+}
+
+.flier2 {
+	pointer-events: none;
+}
+
+.flier2 > * {
+     animation: fly 60s linear infinite;
+        pointer-events: none !important;
+	top: 0;
+	left: 0;
+	transform: translateX(-130%) translateY(-150%) rotateZ(0);
+	position: fixed;
+	animation-delay: 1s;
+	z-index: 999999;
+}
+.flier3 {
+	pointer-events: none;
+}
+
+.flier3 > * {
+     animation: fly 60s linear infinite;
+        pointer-events: none !important;
+	top: 0;
+	left: 0;
+	transform: translateX(-60%) translateY(-60%) rotateZ(0);
+	position: fixed;
+	animation-delay: 1s;
+	z-index: 999999;
+}
 
 @keyframes fly {
 
