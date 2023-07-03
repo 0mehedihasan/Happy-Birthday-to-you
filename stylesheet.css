@@ -1363,7 +1363,61 @@ audio {
 	animation-delay: 1s;
 	z-index: 999999;
 }
+.flier4 {
+	pointer-events: none;
+}
+.flier4 > * {
+     animation: fly 60s linear infinite;
+        pointer-events: none !important;
+	top: 0;
+	left: 0;
+	transform: translateX(-30%) translateY(-20%) rotateZ(0);
+	position: fixed;
+	animation-delay: 1s;
+	z-index: 999999;
+}
+.flier5 {
+	pointer-events: none;
+}
 
+.flier5 > * {
+     animation: fly 60s linear infinite;
+        pointer-events: none !important;
+	top: 0;
+	left: 0;
+	transform: translateX(-130%) translateY(-130%) rotateZ(0);
+	position: fixed;
+	animation-delay: 1s;
+	z-index: 999999;
+}
+.flier6 {
+	pointer-events: none;
+}
+
+.flier6 > * {
+     animation: fly 60s linear infinite;
+        pointer-events: none !important;
+	top: 0;
+	left: 0;
+	transform: translateX(-170%) translateY(-140%) rotateZ(0);
+	position: fixed;
+	animation-delay: 1s;
+	z-index: 999999;
+}
+.flier7 {
+	pointer-events: none;
+}
+
+.flier7 > * {
+     animation: fly 60s linear infinite;
+        pointer-events: none !important;
+	top: 0;
+	left: 0;
+	transform: translateX(-80%) translateY(-90%) rotateZ(0);
+	position: fixed;
+	animation-delay: 1s;
+	z-index: 999999;
+	}
 @keyframes fly {
 
 	98.001%, 0% {
