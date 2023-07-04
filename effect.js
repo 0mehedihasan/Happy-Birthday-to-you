@@ -135,10 +135,26 @@ $('document').ready(function(){
 	$('#light_candle').click(function(){
 		$('.fuego').fadeIn('slow');
 		$(this).fadeOut('slow').promise().done(function(){
+			$('#flier').fadeIn('slow');
+		});
+	});
+$('#flier').click(function(){
+		//ballon vanish
+		$('.balloon-border').animate({top:-500},8000);
+		$('#b1,#b4,#b5,#b7').addClass('balloons-rotate-behaviour-one');
+		$('#b2,#b3,#b6').addClass('balloons-rotate-behaviour-two');
+		loopOne();
+		loopTwo();
+		loopThree();
+		loopFour();
+		loopFive();
+		loopSix();
+		loopSeven();
+		
+		$(this).fadeOut('slow').delay(5000).promise().done(function(){
 			$('#wish_message').fadeIn('slow');
 		});
 	});
-
 		
 	$('#wish_message').click(function(){
 		 vw = $(window).width()/2;
